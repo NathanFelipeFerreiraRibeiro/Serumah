@@ -478,3 +478,7 @@ form > input {
     background-color: rgb(39, 130, 214);
     color: rgb(213, 233, 252);
 }
+
+.container-info-notice > ul > li {
+    cursor: auto;
+}
