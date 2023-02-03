@@ -346,7 +346,7 @@ form > input {
 }
 
 .secao3 {
-    height: 150vh;
+    height: 200vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -399,4 +399,82 @@ form > input {
 .button-see-more:hover {
     border: 2px solid white;
     color: white;
+}
+
+.container-filho2 {
+    width: 80vw;
+    margin-top: 100px;
+}
+
+.container-blog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo {
+    font-size: 30px;
+}
+
+.button-see-all-article {
+    width: 150px;
+    height: 40px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.button-see-all-article:hover {
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.container-align-notice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-notice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-info-notice {
+    width: 300px;
+    height: 400px;
+    margin-top: 70px;
+}
+
+.container-info-notice > ul {
+    color: gray;
+    margin-left: 7px;
+}
+
+.container-info-notice > ul > li::marker {
+    color: aquamarine;
+}
+
+.line-info-notice {
+    width: 200px;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.301);
+    margin-bottom: 20px;
+}
+
+.button-read-more {
+    width: 100px;
+    height: 40px;
+    background-color: rgba(170, 214, 255, 0.548);
+    color: rgb(39, 130, 214);
+    border: none;
+    border-radius: 3px;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.button-read-more:hover {
+    background-color: rgb(39, 130, 214);
+    color: rgb(213, 233, 252);
 }
